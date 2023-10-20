@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+      <link rel="manifest" href="assets/favicon/site.webmanifest" />
+      <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+      <link href="https://fonts.googleapis.com" rel="preconnect" />
+      <link href="https://fonts.gstatic.com" rel="preconnect" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+         rel="stylesheet"
+      />
+      <link href="assets/css/bootIcon.css" rel="stylesheet" />
+      <link href="assets/css/owlCSS.css" rel="stylesheet" />
+      <link href="assets/css/output.css" rel="stylesheet" />
+      <link href="assets/css/style.css" rel="stylesheet" />
+      <title>Lime | Solutions</title>
+   </head>
+
+   <body onresize="resizeWindow()">
+      <!-- Navbar Section Starts here -->
+      <header>
+         <nav>
+            <div class="md:px-5 px-2 navBar fixed top-0 left-0 right-0 bg-lime-500 md:bg-transparent transition-all">
+               <div class="relative">
+                  <a class="absolute logoImg" href="index.html"
+                     ><img alt="..." src="assets/img/logo.webp" width="100px"
+                  /></a>
+                  <div class="menuBar hidden md:block">
+                     <ul class="list-none flex-none md:flex items-center justify-end pt-16 pb-8 md:pb-0 md:pt-0">
+                        <li>
+                           <a
+                              class="font-medium block py-5 px-3 text-sm text-white hover:bg-white hover:text-lime-500 transition-all"
+                              href="index.html"
+                              >HOME</a
+                           >
+                        </li>
+                        <li>
+                           <a
+                              class="font-medium block py-5 px-3 text-sm text-white hover:bg-white hover:text-lime-500 transition-all"
+                              href="services.html"
+                              >SERVICES</a
+                           >
+                        </li>
+                        <li>
+                           <a
+                              class="font-medium block py-5 px-3 text-sm text-white hover:bg-white hover:text-lime-500 transition-all"
+                              href="blogs.html"
+                              >BLOGS</a
+                           >
+                        </li>
+                        <li>
+                           <a
+                              class="font-medium block py-5 px-3 text-sm text-white hover:bg-white hover:text-lime-500 transition-all"
+                              href="products.html"
+                              >SOLUTIONS</a
+                           >
+                        </li>
+                        <li>
+                           <a
+                              class="font-medium block py-5 px-3 text-sm text-white hover:bg-white hover:text-lime-500 transition-all"
+                              href="pricing.html"
+                              >PRICING</a
+                           >
+                        </li>
+                        <li>
+                           <a
+                              class="font-medium block py-5 px-3 text-sm text-white hover:bg-white hover:text-lime-500 transition-all"
+                              href="contact.html"
+                              >CONTACT</a
+                           >
+                        </li>
+                        <li class="hidden md:block">
+                           <a
+                              class="block ps-2 text-base text-white transition-all hover:scale-110 font-extrabold openSearchBox cursor-pointer"
+                           >
+                              <i class="bi bi-search text-xl"></i
+                           ></a>
+                        </li>
+                        <li class="hidden md:block">
+                           <a
+                              class="font-semibold block px-4 text-base text-white transition-all hover:scale-110 cursor-pointer openLoginPopup openPopupBtn"
+                           >
+                              <i class="bi bi-person-circle text-2xl"></i
+                           ></a>
+                        </li>
+                        <li class="md:hidden p-4">
+                           <ul class="list-none m-0 p-0 flex flex-wrap items-center justify-start">
+                              <li>
+                                 <a class="text-white text-2xl me-4 inline-block" href="#"
+                                    ><i class="bi bi-instagram"></i
+                                 ></a>
+                              </li>
+                              <li>
+                                 <a class="text-white text-2xl me-4 inline-block" href="#"
+                                    ><i class="bi bi-facebook"></i
+                                 ></a>
+                              </li>
+                              <li>
+                                 <a class="text-white text-2xl me-4 inline-block" href="#"
+                                    ><i class="bi bi-linkedin"></i
+                                 ></a>
+                              </li>
+                              <li>
+                                 <a class="text-white inline-block text-2xl" href="#"><i class="bi bi-github"></i></a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="flex justify-center items-center menuBtn absolute top-3 right-0 md:hidden">
+                     <a
+                        class="block ps-2 me-3 text-base text-white transition-all hover:scale-110 font-extrabold openSearchBox cursor-pointer"
+                     >
+                        <i class="bi bi-search text-xl"></i
+                     ></a>
+                     <a class="font-semibold block pe-2 text-base openLoginPopup openPopupBtn cursor-pointer"
+                        ><i class="bi bi-person-circle text-2xl text-white"></i
+                     ></a>
+                     <i class="bi bi-list text-3xl text-white cursor-pointer openMenu"></i>
+                     <i class="bi bi-x-lg text-3xl text-white hidden cursor-pointer closeMenu"></i>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <!-- Product Page Starts -->
+      <section class="bg-slate-800">
+         <div class="container mx-auto py-20">
+            <div class="flex flex-wrap justify-center items-center">
+               <div class="md:w-1/2 sm:w-2/3 w-full p-4">
+                  <div class="">
+                     <h1 class="text-5xl text-white font-bold">OUR SOLUTIONS</h1>
+                     <p class="text-gray-200 text-sm font-medium mt-2">
+                        Lorem ipsum dolor, sit amet consectetur officiis aperiam. Veniam corrupti quae natus, possimus
+                        inventore non molestias illum eveniet fugit.
+                     </p>
+                  </div>
+               </div>
+               <div class="md:w-1/2 sm:w-2/3 w-full p-4 flex flex-wrap md:justify-end justify-center items-center">
+                  <img src="assets/img/product.webp" alt="..." class="w-72 inline-block md:mt-0 mt-2" />
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Another section here -->
+      <section class="md:mt-0 mt-8 px-3">
+         <div class="container mx-auto">
+            <div class="flex flex-wrap md:justify-start justify-center items-center">
+               <div class="lg:w-1/4 md:w-1/3 sm:w-2/3 w-full p-2 md:-mt-32">
+                  <div class="bg-white border md:p-8 p-5 rounded-2xl text-center md:shadow-xl transition-all">
+                     <h3 class="text-2xl font-bold mb-3 text-gray-600">
+                        <i class="bi bi-geo-alt text-red-500 text-3xl"></i> Non-profit
+                     </h3>
+                     <p class="text-base font-medium text-gray-500">
+                        Lorem ipsum dolor sit amet consecte odio, vel reprehenderit
+                     </p>
+                  </div>
+                  <div class="bg-white border md:p-8 p-5 rounded-2xl text-center md:shadow-xl transition-all mt-5">
+                     <h3 class="text-2xl font-bold mb-3 text-gray-600">
+                        <i class="bi bi-tsunami text-violet-500 text-3xl"></i> All Green
+                     </h3>
+                     <p class="text-base font-medium text-gray-500">
+                        Lorem ipsum dolor sit amet consecte odio, vel reprehenderit
+                     </p>
+                  </div>
+               </div>
+               <div class="lg:w-1/4 md:w-1/3 sm:w-2/3 w-full p-2">
+                  <div class="bg-white border md:p-8 p-5 rounded-2xl text-center md:shadow-xl md:-mt-36 transition-all">
+                     <h3 class="text-2xl font-bold mb-3 text-gray-600">
+                        <i class="bi bi-building-slash text-yellow-500 text-3xl"></i> Eco Friendly
+                     </h3>
+                     <p class="text-base font-medium text-gray-500">
+                        Lorem ipsum dolor sit amet consecte odio, vel reprehenderit
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--  -->
+      <section>
+         <div class="container mx-auto">
+            <div class="flex flex-wrap md:justify-end justify-center">
+               <div class="md:w-1/3 sm:w-2/3 w-full p-2 md:-mt-64 mt-8">
+                  <p class="text-slate-400 text-6xl font-semibold px-2 text-end">
+                     WE ARE WITH YOU AT EVERY <span class="text-lime-500">STEP</span>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Product Section Starts here -->
+      <section>
+         <div class="container mx-auto py-8">
+            <div class="container mx-auto lg:py-12">
+               <h3 class="text-center text-4xl text-lime-500 font-semibold mb-14">SOLUTIONS</h3>
+               <div class="flex flex-wrap justify-center items-center px-2">
+                  <div class="md:w-1/2 sm:w-2/3 w-full p-2">
+                     <div
+                        class="flex items-center flex-wrap p-4 border-y lg:hover:border-y-transparent lg:hover:rounded-2xl rounded-2xl lg:rounded-none lg:hover:bg-gray-200 lg:bg-white bg-gray-200 transition-all cursor-default group"
+                     >
+                        <div class="lg:w-1/2 rounded-xl overflow-hidden">
+                           <img
+                              src="assets/img/bg1.webp"
+                              alt="..."
+                              class="lg:group-hover:scale-125 transition-all w-full"
+                           />
+                        </div>
+                        <div class="lg:mt-0 mt-4 lg:w-1/2 md:ps-4 ps-0">
+                           <h3 class="font-semibold text-slate-800 text-lg">Lorem ipsum dolor sit amet</h3>
+                           <p class="text-sm font-medium mt-1 text-gray-500">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci illo, vero consectetur,
+                              debitis aperiam dolores delectus....
+                           </p>
+                           <a
+                              href="solutionDetail.html"
+                              class="text-sm inline-block mt-2 lg:text-slate-600 text-blue-600 font-semibold lg:group-hover:text-blue-600"
+                              >Explore
+                              <i
+                                 class="bi bi-chevron-right inline-block lg:group-hover:translate-x-3 transition-all text-sm"
+                              ></i
+                           ></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="md:w-1/2 sm:w-2/3 w-full p-2">
+                     <div
+                        class="flex items-center flex-wrap p-4 border-y lg:hover:border-y-transparent lg:hover:rounded-2xl rounded-2xl lg:rounded-none lg:hover:bg-gray-200 lg:bg-white bg-gray-200 transition-all cursor-default group"
+                     >
+                        <div class="lg:w-1/2 rounded-xl overflow-hidden">
+                           <img
+                              src="assets/img/bg2.webp"
+                              alt="..."
+                              class="lg:group-hover:scale-125 transition-all w-full"
+                           />
+                        </div>
+                        <div class="lg:mt-0 mt-4 lg:w-1/2 md:ps-4 ps-0">
+                           <h3 class="font-semibold text-slate-800 text-lg">Lorem ipsum dolor sit amet</h3>
+                           <p class="text-sm font-medium mt-1 text-gray-500">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci illo, vero consectetur,
+                              debitis aperiam dolores delectus....
+                           </p>
+                           <a
+                              href="solutionDetail.html"
+                              class="text-sm inline-block mt-2 lg:text-slate-600 text-blue-600 font-semibold lg:group-hover:text-blue-600"
+                              >Explore
+                              <i
+                                 class="bi bi-chevron-right inline-block lg:group-hover:translate-x-3 transition-all text-sm"
+                              ></i
+                           ></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="md:w-1/2 sm:w-2/3 w-full p-2">
+                     <div
+                        class="flex items-center flex-wrap p-4 border-y lg:hover:border-y-transparent lg:hover:rounded-2xl rounded-2xl lg:rounded-none lg:hover:bg-gray-200 lg:bg-white bg-gray-200 transition-all cursor-default group"
+                     >
+                        <div class="lg:w-1/2 rounded-xl overflow-hidden">
+                           <img
+                              src="assets/img/bg3.webp"
+                              alt="..."
+                              class="lg:group-hover:scale-125 transition-all w-full"
+                           />
+                        </div>
+                        <div class="lg:mt-0 mt-4 lg:w-1/2 md:ps-4 ps-0">
+                           <h3 class="font-semibold text-slate-800 text-lg">Lorem ipsum dolor sit amet</h3>
+                           <p class="text-sm font-medium mt-1 text-gray-500">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci illo, vero consectetur,
+                              debitis aperiam dolores delectus....
+                           </p>
+                           <a
+                              href="solutionDetail.html"
+                              class="text-sm inline-block mt-2 lg:text-slate-600 text-blue-600 font-semibold lg:group-hover:text-blue-600"
+                              >Explore
+                              <i
+                                 class="bi bi-chevron-right inline-block lg:group-hover:translate-x-3 transition-all text-sm"
+                              ></i
+                           ></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="md:w-1/2 sm:w-2/3 w-full p-2">
+                     <div
+                        class="flex items-center flex-wrap p-4 border-y lg:hover:border-y-transparent lg:hover:rounded-2xl rounded-2xl lg:rounded-none lg:hover:bg-gray-200 lg:bg-white bg-gray-200 transition-all cursor-default group"
+                     >
+                        <div class="lg:w-1/2 rounded-xl overflow-hidden">
+                           <img
+                              src="assets/img/sports.webp"
+                              alt="..."
+                              class="lg:group-hover:scale-125 transition-all w-full"
+                           />
+                        </div>
+                        <div class="lg:mt-0 mt-4 lg:w-1/2 md:ps-4 ps-0">
+                           <h3 class="font-semibold text-slate-800 text-lg">Lorem ipsum dolor sit amet</h3>
+                           <p class="text-sm font-medium mt-1 text-gray-500">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci illo, vero consectetur,
+                              debitis aperiam dolores delectus....
+                           </p>
+                           <a
+                              href="solutionDetail.html"
+                              class="text-sm inline-block mt-2 lg:text-slate-600 text-blue-600 font-semibold lg:group-hover:text-blue-600"
+                              >Explore
+                              <i
+                                 class="bi bi-chevron-right inline-block lg:group-hover:translate-x-3 transition-all text-sm"
+                              ></i
+                           ></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="md:w-1/2 sm:w-2/3 w-full p-2">
+                     <div
+                        class="flex items-center flex-wrap p-4 border-y lg:hover:border-y-transparent lg:hover:rounded-2xl rounded-2xl lg:rounded-none lg:hover:bg-gray-200 lg:bg-white bg-gray-200 transition-all cursor-default group"
+                     >
+                        <div class="lg:w-1/2 rounded-xl overflow-hidden">
+                           <img
+                              src="assets/img/fitness.webp"
+                              alt="..."
+                              class="lg:group-hover:scale-125 transition-all w-full"
+                           />
+                        </div>
+                        <div class="lg:mt-0 mt-4 lg:w-1/2 md:ps-4 ps-0">
+                           <h3 class="font-semibold text-slate-800 text-lg">Lorem ipsum dolor sit amet</h3>
+                           <p class="text-sm font-medium mt-1 text-gray-500">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci illo, vero consectetur,
+                              debitis aperiam dolores delectus....
+                           </p>
+                           <a
+                              href="solutionDetail.html"
+                              class="text-sm inline-block mt-2 lg:text-slate-600 text-blue-600 font-semibold lg:group-hover:text-blue-600"
+                              >Explore
+                              <i
+                                 class="bi bi-chevron-right inline-block lg:group-hover:translate-x-3 transition-all text-sm"
+                              ></i
+                           ></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="md:w-1/2 sm:w-2/3 w-full p-2">
+                     <div
+                        class="flex items-center flex-wrap p-4 border-y lg:hover:border-y-transparent lg:hover:rounded-2xl rounded-2xl lg:rounded-none lg:hover:bg-gray-200 lg:bg-white bg-gray-200 transition-all cursor-default group"
+                     >
+                        <div class="lg:w-1/2 rounded-xl overflow-hidden">
+                           <img
+                              src="assets/img/bussiness.webp"
+                              alt="..."
+                              class="lg:group-hover:scale-125 transition-all w-full"
+                           />
+                        </div>
+                        <div class="lg:mt-0 mt-4 lg:w-1/2 md:ps-4 ps-0">
+                           <h3 class="font-semibold text-slate-800 text-lg">Lorem ipsum dolor sit amet</h3>
+                           <p class="text-sm font-medium mt-1 text-gray-500">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci illo, vero consectetur,
+                              debitis aperiam dolores delectus....
+                           </p>
+                           <a
+                              href="solutionDetail.html"
+                              class="text-sm inline-block mt-2 lg:text-slate-600 text-blue-600 font-semibold lg:group-hover:text-blue-600"
+                              >Explore
+                              <i
+                                 class="bi bi-chevron-right inline-block lg:group-hover:translate-x-3 transition-all text-sm"
+                              ></i
+                           ></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="md:w-1/2 sm:w-2/3 w-full p-2">
+                     <div
+                        class="flex items-center flex-wrap p-4 border-y lg:hover:border-y-transparent lg:hover:rounded-2xl rounded-2xl lg:rounded-none lg:hover:bg-gray-200 lg:bg-white bg-gray-200 transition-all cursor-default group"
+                     >
+                        <div class="lg:w-1/2 rounded-xl overflow-hidden">
+                           <img
+                              src="assets/img/health.webp"
+                              alt="..."
+                              class="lg:group-hover:scale-125 transition-all w-full"
+                           />
+                        </div>
+                        <div class="lg:mt-0 mt-4 lg:w-1/2 md:ps-4 ps-0">
+                           <h3 class="font-semibold text-slate-800 text-lg">Lorem ipsum dolor sit amet</h3>
+                           <p class="text-sm font-medium mt-1 text-gray-500">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci illo, vero consectetur,
+                              debitis aperiam dolores delectus....
+                           </p>
+                           <a
+                              href="solutionDetail.html"
+                              class="text-sm inline-block mt-2 lg:text-slate-600 text-blue-600 font-semibold lg:group-hover:text-blue-600"
+                              >Explore
+                              <i
+                                 class="bi bi-chevron-right inline-block lg:group-hover:translate-x-3 transition-all text-sm"
+                              ></i
+                           ></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="md:w-1/2 sm:w-2/3 w-full p-2">
+                     <div
+                        class="flex items-center flex-wrap p-4 border-y lg:hover:border-y-transparent lg:hover:rounded-2xl rounded-2xl lg:rounded-none lg:hover:bg-gray-200 lg:bg-white bg-gray-200 transition-all cursor-default group"
+                     >
+                        <div class="lg:w-1/2 rounded-xl overflow-hidden">
+                           <img
+                              src="assets/img/technology.webp"
+                              alt="..."
+                              class="lg:group-hover:scale-125 transition-all w-full"
+                           />
+                        </div>
+                        <div class="lg:mt-0 mt-4 lg:w-1/2 md:ps-4 ps-0">
+                           <h3 class="font-semibold text-slate-800 text-lg">Lorem ipsum dolor sit amet</h3>
+                           <p class="text-sm font-medium mt-1 text-gray-500">
+                              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci illo, vero consectetur,
+                              debitis aperiam dolores delectus....
+                           </p>
+                           <a
+                              href="solutionDetail.html"
+                              class="text-sm inline-block mt-2 lg:text-slate-600 text-blue-600 font-semibold lg:group-hover:text-blue-600"
+                              >Explore
+                              <i
+                                 class="bi bi-chevron-right inline-block lg:group-hover:translate-x-3 transition-all text-sm"
+                              ></i
+                           ></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- FAQ Section Starts here -->
+      <section class="bg-gray-100">
+         <div class="py-20 container mx-auto">
+            <h3 class="text-center text-4xl text-lime-500 font-semibold">FAQs</h3>
+            <p class="text-center text-sm text-gray-400 font-medium mb-8">(Related to our solutions)</p>
+            <div class="flex flex-wrap items-center">
+               <div class="md:w-1/2 sm:w-2/3 p-2">
+                  <div class="bg-white p-5 rounded-xl overflow-hidden border">
+                     <h3 class="flex items-center font-semibold text-slate-700 text-base leading-5 border-b pb-2">
+                        <i class="bi bi-question-diamond text-lime-500 text-2xl pe-2"></i>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, doloribus?
+                     </h3>
+                     <p class="text-sm text-slate-500 font-medium mt-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non atque consequuntur obcaecati
+                        veritatis fuga nulla amet illum voluptatum, quisquam deleniti, tempora corporis temporibus ex
+                        iusto laudantium? Iusto reprehenderit deleniti dolores.
+                     </p>
+                  </div>
+               </div>
+               <div class="md:w-1/2 sm:w-2/3 p-2">
+                  <div class="bg-white p-5 rounded-xl overflow-hidden border">
+                     <h3 class="flex items-center font-semibold text-slate-700 text-base leading-5 border-b pb-2">
+                        <i class="bi bi-question-diamond text-lime-500 text-2xl pe-2"></i>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, doloribus?
+                     </h3>
+                     <p class="text-sm text-slate-500 font-medium mt-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non atque consequuntur obcaecati
+                        veritatis fuga nulla amet illum voluptatum, quisquam deleniti, tempora corporis temporibus ex
+                        iusto laudantium? Iusto reprehenderit deleniti dolores.
+                     </p>
+                  </div>
+               </div>
+               <div class="md:w-1/2 sm:w-2/3 p-2">
+                  <div class="bg-white p-5 rounded-xl overflow-hidden border">
+                     <h3 class="flex items-center font-semibold text-slate-700 text-base leading-5 border-b pb-2">
+                        <i class="bi bi-question-diamond text-lime-500 text-2xl pe-2"></i>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, doloribus?
+                     </h3>
+                     <p class="text-sm text-slate-500 font-medium mt-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non atque consequuntur obcaecati
+                        veritatis fuga nulla amet illum voluptatum, quisquam deleniti, tempora corporis temporibus ex
+                        iusto laudantium? Iusto reprehenderit deleniti dolores.
+                     </p>
+                  </div>
+               </div>
+               <div class="md:w-1/2 sm:w-2/3 p-2">
+                  <div class="bg-white p-5 rounded-xl overflow-hidden border">
+                     <h3 class="flex items-center font-semibold text-slate-700 text-base leading-5 border-b pb-2">
+                        <i class="bi bi-question-diamond text-lime-500 text-2xl pe-2"></i>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, doloribus?
+                     </h3>
+                     <p class="text-sm text-slate-500 font-medium mt-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non atque consequuntur obcaecati
+                        veritatis fuga nulla amet illum voluptatum, quisquam deleniti, tempora corporis temporibus ex
+                        iusto laudantium? Iusto reprehenderit deleniti dolores.
+                     </p>
+                  </div>
+               </div>
+               <div class="md:w-1/2 sm:w-2/3 p-2">
+                  <div class="bg-white p-5 rounded-xl overflow-hidden border">
+                     <h3 class="flex items-center font-semibold text-slate-700 text-base leading-5 border-b pb-2">
+                        <i class="bi bi-question-diamond text-lime-500 text-2xl pe-2"></i>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, doloribus?
+                     </h3>
+                     <p class="text-sm text-slate-500 font-medium mt-2">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non atque consequuntur obcaecati
+                        veritatis fuga nulla amet illum voluptatum, quisquam deleniti, tempora corporis temporibus ex
+                        iusto laudantium? Iusto reprehenderit deleniti dolores.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Our goal section starts here -->
+      <section class="">
+         <div class="container mx-auto pt-20 pb-10">
+            <h3 class="text-center text-4xl text-slate-800 font-semibold">OUR GOAL</h3>
+            <p class="text-center text-sm text-gray-500 font-medium mt-2 mb-8">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis obcaecati voluptates, ut
+               voluptatibus,aerat<br class="lg:block hidden" />
+               facilis, vero atque doloremque animi quidem. Nobis, inventore.
+            </p>
+            <div class="flex flex-wrap items-center">
+               <div class="lg:w-1/2 sm:w-2/3 px-4">
+                  <img src="assets/img/img7.webp" alt="..." class="w-full" />
+               </div>
+               <div class="lg:w-1/2 sm:w-2/3 p-4">
+                  <h3 class="text-2xl text-slate-800 font-semibold mb-2 relative">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     <i class="bi bi-quote text-lime-200 -z-10 text-6xl absolute inline-block -top-6 -left-5"></i>
+                  </h3>
+                  <p class="text-slate-500 md:text-base text-sm font-medium">
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem fugiat repudiandae natus architecto
+                     molestiae perspiciatis neque in praesentium, ipsa, cum suscipit. Numquam aliquid, iure expedita
+                     maxime molestiae sed natus dignissimos
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Subscribe our newsletter -->
+      <section class="bg-blue-100">
+         <div class="container mx-auto py-20">
+            <div class="flex justify-center items-center">
+               <div class="lg:w-1/2 md:w-3/5 sm:w-2/3 w-full p-4">
+                  <div class="text-center">
+                     <h1 class="text-4xl font-semibold text-slate-800">Sign up for our newsletter</h1>
+                     <p class="md:text-base text-sm font-medium text-slate-500 mt-4">
+                        Stay up to date with the roadmap progress, announcements and exclusive discounts feel free to
+                        sign up with your email.
+                     </p>
+                     <form method="post">
+                        <div class="flex items-center mt-8">
+                           <input
+                              type="email"
+                              placeholder="Enter your email"
+                              class="block w-full py-3 px-4 rounded-s-xl placeholder:text-slate-700 text-slate-700 md:text-base text-sm font-medium"
+                              required
+                           />
+                           <button
+                              type="submit"
+                              class="bg-slate-900 hover:bg-slate-800 text-white font-medium md:text-base text-sm py-3 px-4 rounded-e-xl"
+                           >
+                              Subscribe
+                           </button>
+                        </div>
+                     </form>
+                     <p class="text-start text-xs px-2 text-slate-600 font-semibold mt-2">
+                        We care about the protection of your data.
+                        <a href="#" class="text-blue-600">Read our Privacy Policy</a>.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Search bar Starts here -->
+      <div class="fixed searchBox hidden top-0 left-0 h-screen w-full">
+         <div class="flex justify-center">
+            <div class="lg:w-1/2 md:w-4/6 sm:w-4/5 p-4 w-full">
+               <div class="bg-white md:p-6 p-4 rounded-2xl shadow-2xl shadow-black">
+                  <div class="flex items-center border-2 border-lime-500 rounded-xl overflow-hidden">
+                     <input
+                        id="searchInp"
+                        class="w-full py-3 px-4 text-sm font-medium bg-white placeholder:text-lime-800 text-gray-800"
+                        placeholder="Seach here..."
+                        type="text"
+                     />
+                     <button
+                        class="text-white closePopup hover:bg-lime-600 sm:text-lg text-lg py-2 px-4 flex justify-center closeSearchBox items-center bg-lime-500"
+                        type="button"
+                     >
+                        <i class="bi bi-x-lg"></i>
+                     </button>
+                  </div>
+                  <div id="searchList" class="max-h-64 bg-white overflow-auto mt-2">
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Explore Our Services and Solutions</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Get in Touch for Expert Guidance</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Discover Our Latest Product Line</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Read Our Informative Blog Posts</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Join Our Team of Creative Minds</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Browse Our Extensive Portfolio</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Find Your Answers in Our FAQ Section</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Explore Our Customer Testimonials</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Meet Our Highly Skilled Team</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Stay Updated with Our News and Updates</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Shop for Unique Products Online</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Subscribe to Our Newsletter Today</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Access Your Account Anytime</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Download Our User-Friendly App</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Share Your Valuable Feedback with Us</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Navigate Our Website with Ease</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Learn About Our Commitment to Quality</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Contact Us for Personalized Assistance</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Connect with Us on Social Media</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Discover New Opportunities with Us</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Explore Our Comprehensive Services</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Get Expert Advice on Your Projects</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Read Our Customer Success Stories</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Shop the Latest Trends in Fashion</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Subscribe for Exclusive Promotions</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Access Your Account Information</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Download Our Mobile App Today</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Share Your Thoughts with Us</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Navigate Our Site with Confidence</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Learn About Our Vision and Mission</a
+                     >
+                     <a
+                        href="#"
+                        style="display: none"
+                        class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                        >Connect with Our Support Team</a
+                     >
+                  </div>
+                  <!-- Recommendation List Here -->
+                  <div class="px-2">
+                     <p
+                        class="text-lime-600 px-2 font-medium text-sm py-2 border-b-2 flex justify-between items-center border-lime-500 openSearchDropdown cursor-pointer"
+                     >
+                        Recommended <i class="bi bi-chevron-down block transition-all text-base searchDropdownIcon"></i>
+                     </p>
+                     <div class="max-h-52 overflow-auto searchDropdown hidden">
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Discover the beauty of nature in our breathtaking national parks.</a
+                        >
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Explore the world's cultures through our diverse cultural festivals.</a
+                        >
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Find inner peace and mindfulness with our guided meditation sessions.</a
+                        >
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Experience the thrill of adventure with our exciting outdoor activities.</a
+                        >
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Embark on a culinary journey through the flavors of international cuisine.</a
+                        >
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Experience the magic of live music at our outdoor concert events.</a
+                        >
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Connect with fellow enthusiasts in our vibrant online communities.</a
+                        >
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Ignite your passion for learning with our educational webinars and courses.</a
+                        >
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Enhance your home with our stylish and sustainable interior design tips.</a
+                        >
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Join us in supporting local charities and making a difference in lives.</a
+                        >
+                        <a
+                           href="#"
+                           class="py-2 px-3 text-sm font-medium text-gray-600 hover:bg-gray-100 rounded-lg block"
+                           >Get inspired by our collection of heartwarming success stories.</a
+                        >
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Footer starts here -->
+      <footer class="bg-slate-800 p-3">
+         <div class="border-dashed border-2 border-lime-500">
+            <div class="container mx-auto pt-14 pb-12 mt-8">
+               <div class="flex flex-wrap relative lg:pb-64 md:pb-48 sm:pb-44 pb-36">
+                  <img
+                     alt="..."
+                     class="absolute bottom-0 left-0 md:w-2/4 sm:w-4/5 w-full"
+                     src="assets/img/building.webp"
+                  />
+                  <div class="lg:w-1/4 sm:w-1/2 w-full">
+                     <div class="p-4">
+                        <img alt="..." src="assets/img/logo.webp" width="110px" />
+                        <p class="text-white font-normal text-sm mt-3">
+                           We are dedicated to providing our customers with the highest quality products and services.
+                           With a strong commitment to excellence and customer satisfaction, we strive to create a
+                           seamless and enjoyable experience for all our visitors.
+                        </p>
+                        <p class="text-white font-normal text-sm mt-5 flex items-center">
+                           <i class="bi bi-geo-alt text-lime-500 text-2xl me-2"></i> 1234 Elm Street, Anytown, USA,
+                           12345
+                        </p>
+                        <p class="text-white font-normal text-sm mt-1 flex items-center">
+                           <i class="bi bi-envelope-at text-lime-500 text-2xl me-2"></i> john.doe123@example.com
+                        </p>
+                        <p class="text-white font-normal text-sm mt-1 flex items-center">
+                           <i class="bi bi-telephone text-lime-500 text-2xl me-2"></i> 1-800-555-1234, 1-800-434-9886
+                        </p>
+                     </div>
+                  </div>
+                  <div class="lg:w-1/4 sm:w-1/2 w-full">
+                     <div class="p-4">
+                        <h3 class="text-white text-xl font-semibold">Important Links</h3>
+                        <ul class="text-white text-sm mt-3 ps-2">
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">About Us</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Contact Information</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Privacy Policy</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Terms and Conditions</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">FAQ</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Careers</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Support</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Terms and Conditions</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="lg:w-1/4 sm:w-1/2 w-full">
+                     <div class="p-4">
+                        <h3 class="text-white text-xl font-semibold">Our Top Blogs</h3>
+                        <ul class="text-white text-sm mt-3 ps-2">
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Tech Reviews and Insights</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Lifestyle and Wellness Tips</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Business Strategies and Trends</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Travel Adventures and Destinations</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Food and Cooking Inspirations</a>
+                           </li>
+                           <li class="hover:text-lime-500 mb-2">
+                              <a href="#">Fashion Trends and Style Guides</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="lg:w-1/4 sm:w-1/2 w-full">
+                     <div class="p-4">
+                        <h3 class="text-white text-xl font-semibold">Our Newsletter</h3>
+                        <ul class="list-none m-0 p-0 flex mt-3">
+                           <li>
+                              <a
+                                 class="text-white hover:text-lime-500 transition-all text-2xl me-3 inline-block"
+                                 href="#"
+                                 ><i class="bi bi-instagram"></i
+                              ></a>
+                           </li>
+                           <li>
+                              <a
+                                 class="text-white hover:text-lime-500 transition-all text-2xl me-3 inline-block"
+                                 href="#"
+                                 ><i class="bi bi-facebook"></i
+                              ></a>
+                           </li>
+                           <li>
+                              <a
+                                 class="text-white hover:text-lime-500 transition-all text-2xl me-3 inline-block"
+                                 href="#"
+                                 ><i class="bi bi-linkedin"></i
+                              ></a>
+                           </li>
+                           <li>
+                              <a class="text-white hover:text-lime-500 transition-all inline-block text-2xl" href="#"
+                                 ><i class="bi bi-github"></i
+                              ></a>
+                           </li>
+                        </ul>
+                        <form method="post" onsubmit="return validateFooterEmail()" class="mt-2">
+                           <input
+                              id="footerEmailInp"
+                              class="block w-full p-3 bg-white rounded-lg text-slate-700 text-sm border-0 outline-none placeholder:text-slate-700 font-semibold"
+                              placeholder="Enter your email here..."
+                              type="text"
+                           />
+                           <p class="text-xs font-bold text-red-500 mt-1" id="footerEmailErr"></p>
+                           <button
+                              class="py-2 px-6 text-white bg-lime-500 hover:bg-lime-600 rounded-lg mt-2"
+                              type="submit"
+                           >
+                              Submit
+                           </button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+               <div class="pt-2 border-t-2 border-gray-300 flex flex-wrap justify-between items-center">
+                  <p class="text-gray-300 font-normal text-sm text-center sm:text-left w-full sm:w-auto">
+                     Copyright © 2023 Tailwind Labs Inc. | Trademark Policy
+                  </p>
+                  <p class="text-gray-300 font-normal text-sm mt-4 sm:mt-0 text-center sm:text-right w-full sm:w-auto">
+                     Harsh Kushwaha
+                  </p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- To Top Button Starts Here -->
+      <button
+         class="text-lg w-10 h-10 hidden text-white z-50 bg-black rounded-full fixed bottom-2 right-1"
+         id="toTopBtn"
+         type="button"
+      >
+         <i class="bi bi-arrow-up"></i>
+      </button>
+      <!-- Popup login form starts here -->
+      <div class="fixed top-0 left-0 w-full popup loginPopupBox hidden">
+         <div class="container mx-auto">
+            <div class="flex justify-center items-center h-screen">
+               <div class="lg:w-1/2 md:w-4/6 sm:w-3/4 w-full p-3">
+                  <div class="bg-white sm:p-6 p-4 rounded-2xl relative">
+                     <button
+                        class="text-gray-500 closePopup hover:text-lime-500 sm:text-lg text-base rounded-full sm:w-9 sm:h-9 w-7 h-7 flex justify-center items-center bg-transparent hover:bg-gray-100 absolute top-2 right-2"
+                        type="button"
+                     >
+                        <i class="bi bi-x-lg"></i>
+                     </button>
+                     <h3 class="text-center font-semibold text-lime-500 sm:text-2xl text-lg sm:mb-5 mb-3">
+                        Please! login here
+                     </h3>
+                     <form
+                        method="post"
+                     
+                        class="border-2 border-lime-500 sm:p-6 p-4 rounded-2xl loginWithEmailForm"
+                        onsubmit="return validateLoginWithEmailFOrm()"
+                     >
+                        <input
+                           class="block w-full py-3 sm:px-5 px-3 bg-gray-100 text-gray-700 font-medium rounded-lg sm:text-base text-sm outline-none border-0 mb-1 placeholder:text-gray-800"
+                           id="emailInputForLogin"
+                           placeholder="Enter your email address"
+                           type="text"
+                        />
+                        <p class="text-xs font-bold text-red-500 mb-1" id="emailInputForLoginErr"></p>
+                        <input
+                           class="block w-full py-3 sm:px-5 px-3 bg-gray-100 text-gray-700 font-medium rounded-lg sm:text-base text-sm outline-none border-0 mb-1 mt-3 placeholder:text-gray-800"
+                           id="loginPassword"
+                           placeholder="Enter your password"
+                           type="password"
+                        />
+                        <p class="text-xs font-bold text-red-500 mb-2" id="loginPasswordErr"></p>
+                        <div class="mb-3 mt-2 flex items-center cursor-pointer w-full">
+                           <input id="rememberMe" type="checkbox" />
+                           <label class="text-xs text-gray-700 ps-2 cursor-pointer select-none" for="rememberMe"
+                              >Remember me!</label
+                           >
+                        </div>
+                        <div class="text-center">
+                           <button
+                              class="bg-lime-500 text-white hover:bg-lime-600 transition-all py-3 px-10 rounded-xl sm:text-base text-sm"
+                              type="submit"
+                           >
+                              Login
+                           </button>
+                        </div>
+                        <div class="text-center">
+                           <p class="mt-3 mb-1 text-gray-500 text-xl font-medium">Or</p>
+                           <a
+                              class="text-xs font-semibold text-blue-700 hover:text-red-500 openLoginNumberForm cursor-pointer"
+                              >Login with your phone number <i class="bi bi-box-arrow-up-right"></i
+                           ></a>
+                        </div>
+                     </form>
+                     <form
+                        method="post"
+                        class="border-2 border-lime-500 sm:p-6 p-4 rounded-2xl loginWithNumberForm hidden"
+                        onsubmit="return verifyOtpFnc()"
+                     >
+                        <div class="numberInpBox">
+                           <p class="text-center text-xs font-medium text-gray-600 mb-5">
+                              Lorem ipsum dolor sit amet consectetur adipisicing.
+                           </p>
+                           <input
+                              class="block w-full py-3 sm:px-5 px-3 bg-gray-100 text-gray-700 font-medium rounded-lg sm:text-base text-sm outline-none border-0 mb-2 placeholder:text-gray-800"
+                              id="mobileLoginInput"
+                              placeholder="Enter your mobile number"
+                              type="number"
+                           />
+                           <p class="text-xs font-bold text-red-500 mb-1" id="mobileNumberErrTxt"></p>
+                           <div class="mb-3 flex items-center cursor-pointer w-full">
+                              <input id="agreedMobileVerification" type="checkbox" />
+                              <label
+                                 class="text-xs text-gray-700 ps-2 cursor-pointer font-medium select-none"
+                                 for="agreedMobileVerification"
+                                 id="agreedMobileVerificationLabel"
+                                 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aperiam numquam maxime
+                                 non illo.</label
+                              >
+                           </div>
+                           <div class="text-center mt-5">
+                              <button
+                                 class="bg-lime-500 text-white hover:bg-lime-600 transition-all py-3 px-10 rounded-xl sm:text-base text-sm otpForMobileBtn"
+                                 type="button"
+                              >
+                                 Get an OTP
+                              </button>
+                           </div>
+                        </div>
+                        <div class="otpVerficationInpBox hidden">
+                           <p class="text-center text-xs font-medium text-gray-600 mb-5">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum vitae deserunt atque
+                              aliquam quas?
+                           </p>
+                           <input
+                              class="block w-full py-3 sm:px-5 px-3 bg-gray-100 text-gray-700 font-medium rounded-lg sm:text-base text-sm outline-none border-0 mb-1 placeholder:text-gray-800"
+                              id="otpForMobileNumberVerification"
+                              placeholder="Enter your OTP"
+                              type="number"
+                           />
+                           <p class="text-xs font-bold text-red-500 mb-1" id="otpMobileNumberErrTxt"></p>
+                           <div class="text-center mt-4">
+                              <button
+                                 class="bg-lime-500 text-white hover:bg-lime-600 transition-all py-3 px-10 rounded-xl sm:text-base text-sm"
+                                 type="submit"
+                              >
+                                 Verify & login
+                              </button>
+                           </div>
+                        </div>
+                        <div class="text-center">
+                           <p class="mt-3 mb-1 text-gray-500 text-xl font-medium">Or</p>
+                           <a
+                              class="text-xs font-semibold text-blue-700 hover:text-red-500 openLoginEmailForm cursor-pointer"
+                              >Login with your email address <i class="bi bi-box-arrow-up-right"></i
+                           ></a>
+                        </div>
+                     </form>
+                     <p class="text-center text-gray-600 text-xs mt-5">
+                        Don't have an account?
+                        <a class="text-blue-700 cursor-pointer font-semibold hover:text-red-500 openRegistrationForm"
+                           >Register here <i class="bi bi-box-arrow-up-right"></i
+                        ></a>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Popup registration form starts -->
+      <div class="fixed top-0 left-0 w-full registrationPopForm hidden popup">
+         <div class="container mx-auto">
+            <div class="flex justify-center items-center h-screen">
+               <div class="lg:w-1/2 md:w-4/6 sm:w-3/4 w-full p-3">
+                  <div class="bg-white sm:p-6 p-4 rounded-2xl relative">
+                     <button
+                        class="text-gray-500 closePopup hover:text-lime-500 sm:text-lg text-base rounded-full sm:w-9 sm:h-9 w-7 h-7 flex justify-center items-center bg-transparent hover:bg-gray-100 absolute top-2 right-2"
+                        type="button"
+                     >
+                        <i class="bi bi-x-lg"></i>
+                     </button>
+                     <h3 class="text-center font-semibold text-lime-500 sm:text-2xl text-lg sm:mb-5 mb-3">
+                        Please! register yourself
+                     </h3>
+                     <form
+                        method="post"
+                     
+                        class="border-2 border-lime-500 sm:p-6 p-4 rounded-2xl"
+                        onsubmit="return validateRegistrationOtp()"
+                     >
+                        <div class="registrationStep1">
+                           <input
+                              class="block w-full py-3 sm:px-5 px-3 bg-gray-100 text-gray-700 font-medium rounded-lg sm:text-base text-sm outline-none border-0 mb-1 placeholder:text-gray-800"
+                              id="regEmail"
+                              placeholder="Enter a valid email address"
+                              type="email"
+                           />
+                           <p class="text-xs font-bold text-red-500 mb-2" id="regEmailErr"></p>
+                           <input
+                              class="block w-full py-3 sm:px-5 px-3 bg-gray-100 text-gray-700 font-medium rounded-lg sm:text-base text-sm outline-none border-0 mb-1 mt-3 placeholder:text-gray-800"
+                              id="regPassword"
+                              placeholder="Create a password"
+                              type="password"
+                           />
+                           <p class="text-xs font-bold text-red-500 mb-2" id="regPasswordErr"></p>
+                           <input
+                              class="block mt-3 w-full py-3 sm:px-5 px-3 bg-gray-100 text-gray-700 font-medium rounded-lg sm:text-base text-sm outline-none border-0 mb-1 placeholder:text-gray-800"
+                              id="regPasswordRewrite"
+                              placeholder="Confirm password"
+                              type="password"
+                           />
+                           <p class="text-xs font-bold text-red-500 mb-2" id="regPasswordRewriteErr"></p>
+                           <div class="mb-3 flex items-center cursor-pointer w-full">
+                              <input id="regAgreedCheck" type="checkbox" />
+                              <label
+                                 class="text-xs text-gray-700 ps-2 cursor-pointer select-none"
+                                 for="regAgreedCheck"
+                                 id="regAgreedCheckLabel"
+                                 >Lorem ipsum, dolor sit amet constur adiing elit. Ex obcati quisquam dolorem reprit cum
+                                 quasi.</label
+                              >
+                           </div>
+                           <div class="text-center">
+                              <button
+                                 class="bg-lime-500 text-white hover:bg-lime-600 transition-all py-3 px-10 rounded-xl sm:text-base text-sm"
+                                 id="regBtn"
+                                 type="button"
+                              >
+                                 Proceed
+                              </button>
+                           </div>
+                        </div>
+                        <div class="registrationStep2 hidden">
+                           <h3 class="text-xs text-gray-700 mb-5 text-center">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente explicabo facilis quod
+                              fugiat asperiores.
+                           </h3>
+                           <input
+                              class="block w-full py-3 sm:px-5 px-3 bg-gray-100 text-gray-700 font-medium rounded-lg sm:text-base text-sm outline-none border-0 mb-1 placeholder:text-gray-800"
+                              id="regOtp"
+                              placeholder="Enter your OTP here"
+                              type="text"
+                           />
+                           <p class="text-xs font-bold text-red-500" id="regOtpInpErr"></p>
+                           <div class="text-center mt-4">
+                              <button
+                                 class="bg-lime-500 text-white hover:bg-lime-600 transition-all py-3 px-10 rounded-xl sm:text-base text-sm"
+                                 type="submit"
+                              >
+                                 Verify OTP!
+                              </button>
+                           </div>
+                        </div>
+                        <div class="text-center">
+                           <p class="mt-3 mb-1 text-gray-500 text-xl font-medium">Or</p>
+                           <a
+                              class="text-xs font-semibold cursor-pointer text-blue-700 hover:text-red-500 openLoginNumberForm"
+                              >Login with your phone number <i class="bi bi-box-arrow-up-right"></i
+                           ></a>
+                        </div>
+                     </form>
+                     <p class="text-center text-gray-600 text-xs mt-5">
+                        Have an account?
+                        <a class="text-blue-700 font-semibold hover:text-red-500 openLoginForm cursor-pointer"
+                           >Login here <i class="bi bi-box-arrow-up-right"></i
+                        ></a>
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Socials Sidebar -->
+      <div
+         class="fixed z-50 bg-black text-xs font-bold shadow-2xl shadow-black py-2 px-3 bottom-2 -left-12 transition-all cursor-pointer rounded-r-xl socialSideBar hidden"
+      >
+         <div class="absolute bg-transparent bottom-0 -right-6 rounded-r-lg">
+            <i class="bi bi-chevron-right p-1 text-xl openSocialBox inline-block text-gray-500"></i>
+         </div>
+         <div class="">
+            <a class="block text-white hover:text-lime-500 text-2xl mb-1" href="#"><i class="bi bi-instagram"></i></a>
+            <a class="block text-white hover:text-lime-500 text-2xl mb-1" href="#"><i class="bi bi-linkedin"></i></a>
+            <a class="block text-white hover:text-lime-500 text-2xl mb-1" href="#"><i class="bi bi-twitch"></i></a>
+            <a class="block text-white hover:text-lime-500 text-2xl" href="#"><i class="bi bi-twitter-x"></i></a>
+         </div>
+      </div>
+      <!-- Newsletter Popup Form -->
+      <div class="newsletterPopup fixed top-0 left-0 w-full popup hidden">
+         <div class="container mx-auto">
+            <div class="flex justify-center items-center h-screen">
+               <div class="lg:w-3/5 sm:w-4/5 w-full md:p-0 sm:p-5 p-4">
+                  <div class="bg-white overflow-hidden shadow-2xl shadow-black rounded-2xl relative">
+                     <button
+                        class="text-gray-500 closePopup hover:text-lime-500 sm:text-lg text-base rounded-full sm:w-9 sm:h-9 w-7 h-7 flex justify-center items-center bg-transparent hover:bg-gray-100 absolute top-2 right-2"
+                        type="button"
+                     >
+                        <i class="bi bi-x-lg"></i>
+                     </button>
+                     <div class="flex flex-wrap items-center">
+                        <div class="md:w-2/5 w-full md:block hidden h-80 letterBg"></div>
+                        <div class="md:w-3/5 w-full">
+                           <div class="md:p-4 px-5 py-8">
+                              <h3 class="text-center text-2xl mb-2 font-semibold text-lime-500">Subscribe Us</h3>
+                              <p class="mb-5 text-xs font-normal text-gray-600 text-center">
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis qui officia porro
+                                 perspiciatis et doloribus sapiente sitatibus.
+                              </p>
+                              <form onsubmit="return validateSubscribtion()">
+                                 <input
+                                    type="text"
+                                    id="subscribeEmail"
+                                    placeholder="Enter your email here..."
+                                    class="w-full block py-3 px-4 bg-white rounded-xl border-2 border-lime-500 placeholder:text-gray-700"
+                                 />
+                                 <p class="text-xs mt-1 font-bold text-red-500" id="subscribeErr"></p>
+                                 <div class="mt-2 flex items-center cursor-pointer w-full px-2">
+                                    <input id="subscribeCheck" type="checkbox" />
+                                    <label
+                                       class="text-xs text-gray-700 ps-2 cursor-pointer select-none"
+                                       for="subscribeCheck"
+                                       id="subscribeCheckLabel"
+                                       >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</label
+                                    >
+                                 </div>
+                                 <div class="text-center">
+                                    <button
+                                       type="submit"
+                                       class="py-3 px-8 inline-block rounded-xl mt-5 bg-lime-500 hover:bg-lime-600 text-white text-lg font-medium"
+                                    >
+                                       Submit
+                                    </button>
+                                 </div>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Cookies Popup Box -->
+      <section class="fixed bottom-0 left-0 w-full h-screen bg-black/70 cookiesPopup popup hidden">
+         <div class="container mx-auto">
+            <div class="flex absolute bottom-0 p-4">
+               <div class="md:w-2/3 sm:w-3/4 w-full p-8 bg-white rounded-2xl border shadow-xl relative">
+                  <button
+                     class="text-gray-500 closePopup hover:text-lime-500 sm:text-lg text-base rounded-full sm:w-9 sm:h-9 w-7 h-7 flex justify-center items-center bg-transparent hover:bg-gray-100 absolute top-2 right-2"
+                     type="button"
+                  >
+                     <i class="bi bi-x-lg"></i>
+                  </button>
+                  <div class="flex flex-wrap items-center justify-center">
+                     <div class="lg:w-4/5 p-3">
+                        <h3 class="text-slate-700 font-bold text-2xl mb-2">
+                           WE USE <span class="text-lime-500">COOKIES</span>
+                        </h3>
+                        <p class="text-sm font-medium text-slate-500">
+                           We use cookies to enhance your browsing experience and provide personalized content. By
+                           continuing to use our site, you consent to the use of cookies as described in our Cookie
+                           Policy.
+                        </p>
+                     </div>
+                     <div class="lg:w-1/5 text-center p-3">
+                        <button
+                           type="button"
+                           id="cookiesAccepted"
+                           class="bg-lime-500 closePopup hover:bg-lime-600 text-white font-semibold text-sm py-2 border-2 border-lime-500 hover:border-lime-600 lg:block lg:w-full px-4 rounded-lg"
+                        >
+                           Accept
+                        </button>
+                        <button
+                           type="button"
+                           class="bg-transparent hover:bg-lime-500 hover:text-white border-2 border-lime-500 lg:block lg:w-full lg:mt-3 mt-0 lg:ms-0 ms-2 text-lime-500 font-semibold closePopup text-sm py-2 px-4 rounded-lg"
+                        >
+                           Decline
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <script src="assets/js/jquery.js"></script>
+      <script src="assets/js/owlJS.js"></script>
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>

@@ -1,0 +1,247 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Montserrat", sans-serif;
+   scroll-behavior: smooth;
+}
+
+.hero {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg1.webp");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100vh;
+}
+
+.blogHeroSection {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/bg2.webp");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 60vh;
+}
+
+.logoImg {
+   top: 11px;
+}
+
+.logoImg > img {
+   filter: brightness(10000);
+}
+
+::-webkit-scrollbar {
+   width: 5px;
+   height: 5px;
+   background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #84cc16;
+}
+
+.navBar {
+   min-height: 60px;
+   z-index: 9999;
+}
+
+#toTopBtn {
+   z-index: 999;
+}
+
+.reviewImg {
+   width: 50px !important;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+   position: absolute;
+   top: 47%;
+   transform: translateY(-50%);
+   font-size: 50px;
+   font-weight: 600;
+   padding: 0;
+   margin: 0;
+   color: #5d9b00;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+   right: -10px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+   left: -10px;
+}
+
+.aboutBg {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg3.webp");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.letterBg {
+   background-image: url("../img/subscribe.webp");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+input::placeholder,
+textarea::placeholder {
+   color: white;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+   background-color: #a0da49;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+   background-color: #447200;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+   background-color: transparent;
+   color: #447200;
+}
+
+.loginPopupBox,
+.registrationPopForm,
+.searchBox,
+.newsletterPopup {
+   background-color: rgba(0, 0, 0, 0.7);
+   z-index: 999999;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+
+input[type="number"] {
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+
+input,
+button {
+   outline: none;
+}
+
+.rotate-180 {
+   transform: rotate(180deg);
+}
+
+.owl-theme .owl-nav .disabled {
+   opacity: 0;
+   cursor: default;
+}
+
+.blogCategoryLabel input {
+   width: 0;
+   height: 0;
+   visibility: hidden;
+}
+
+.blogCategoryTrue {
+   display: none;
+}
+
+.blogCategoryLabel input:checked ~ .blogCategoryTrue {
+   display: block;
+}
+
+.blogCategoryLabel input:checked ~ .blogCategoryFalse {
+   display: none;
+}
+
+.blogBg1 {
+   background-image: url("../img/news.webp");
+}
+
+.blogBg2 {
+   background-image: url("../img/fitness.webp");
+}
+
+.blogBg3 {
+   background-image: url("../img/health.webp");
+}
+
+.blogBg4 {
+   background-image: url("../img/technology.webp");
+}
+
+.blogBg5 {
+   background-image: url("../img/education.webp");
+}
+
+.blogBg6 {
+   background-image: url("../img/bussiness.webp");
+}
+
+.blogBg7 {
+   background-image: url("../img/sports.webp");
+}
+
+.blogRecommendCard {
+   margin-bottom: 17px;
+}
+
+.blogRecommendCard:last-child {
+   margin-bottom: 0;
+}
+
+.blogPara {
+   overflow: hidden;
+   -webkit-line-clamp: 3;
+   line-clamp: 3;
+   -webkit-box-orient: vertical;
+   display: -webkit-box;
+}
+
+.brandLogoOnTestimonial {
+   width: 75px !important;
+}
+
+.searchDropdown::-webkit-scrollbar,
+#searchList::-webkit-scrollbar {
+   width: 2px;
+}
+
+.searchDropdown::-webkit-scrollbar-thumb,
+#searchList::-webkit-scrollbar-thumb {
+   background-color: lightgray;
+   border-radius: 10px;
+}
+
+.serviceBg {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/bg3.webp");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.contactBgBox {
+   background-image: url("../img/contactBg2.webp");
+}
+
+.blogDetailBg {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/sports.webp");
+}
+
+@media (max-width: 650px) {
+   .owl-carousel .owl-nav button.owl-next {
+      right: 2px;
+   }
+
+   .owl-carousel .owl-nav button.owl-prev {
+      left: 2px;
+   }
+}
+
+.cookiesPopup {
+   z-index: 999999;
+}
