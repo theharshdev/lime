@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function() {
+   document.documentElement.style.colorScheme = "light";
+   document.body.style.backgroundColor = "white";
+   document.body.style.color = "black";
+});
 $(".openMenu").click(function () {
    $(".menuBar").slideDown(300);
    $(".closeMenu").show();
