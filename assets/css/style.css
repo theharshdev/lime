@@ -1,12 +1,15 @@
 :root {
-   color-scheme: light !important;
- }
+   color-scheme: light;
+   background: #ffffff; /* Ensure a white background */
+   color: #000000; /* Ensure black text */
+}
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
    font-family: "Montserrat", sans-serif;
    scroll-behavior: smooth;
+   color-scheme: light;
 }
 
 .hero {
